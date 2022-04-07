@@ -4,7 +4,7 @@ import { Grid } from "@material-ui/core";
 import { Consultar } from "../../common/server/funcionesServidor";
 import { AsignarNombreMaterialTable } from "../../common/funciones/funciones";
 import DetalleGrid from "../../common/detalleGrid/DetalleGrid";
-import Editor from "./editor/Editor";
+import Editor from "./Editor/editor.js";
 
 export default function Asiento() {
   const collection = "solicituds";
